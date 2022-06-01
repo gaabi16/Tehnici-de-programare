@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1654035232 source:d:\gabi\tehnici_de_programare\main.cpp
+	<iostream>
+	<conio.h>
+	<algorithm>
+
