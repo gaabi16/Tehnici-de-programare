@@ -37,6 +37,7 @@ void afisare_nume() {
     cout<<"   Autor: Crisan Gabriel\n";
     cout<<"   Clasa: 11 C\n";
     cout<<"\n Apasa orice tasta pentru a continua";
+    cout<<"Everything works smoothly!"<<endl;
     getch();
     system("cls");
 }
