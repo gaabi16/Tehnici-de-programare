@@ -35,6 +35,8 @@ int intrebare_cu_r_scurt(char* intrebare, string raspuns_corect);
 void afisare_nume() {
     cout<<"\n             Tehnici de programare\n\n";
     cout<<"   Autor: Crisan Gabriel\n";
+    cout<<" Acesta este un test\n";
+    cout<<" Acesta este un testv2\n";
     cout<<"   Clasa: 11 C\n";
     cout<<"\n Apasa orice tasta pentru a continua";
     getch();
