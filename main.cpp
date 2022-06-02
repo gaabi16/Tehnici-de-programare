@@ -207,7 +207,7 @@ void recursivitate_aplicatia1_program(){
         if(n<0)
             cout<<"Numarul citit trebuie sa fie mai mare sau egal cu 0"<<endl;
     }while(n<0);
-    cout<<"n! = "<<factorial(n)<<endl<<endl;
+    cout<<n<<"! = "<<factorial(n)<<endl<<endl;
 }
 
 int factorial(int n){
@@ -241,7 +241,7 @@ void recursivitate_aplicatia2_program(){
         if(a<0)
             cout<<"Exponentul trebuie sa fie un numar natural. Reintrodu valoarea lui a: ";
     }while(a<0);
-    cout<<"\nn la puterea a este "<<putere(n,a)<<endl<<endl;
+    cout<<"\n"<<n<<" la puterea "<<a<<" este "<<putere(n,a)<<endl<<endl;
 }
 
 int putere(int n, int a){
@@ -351,9 +351,9 @@ void backtracking_aplicatia1(){
             x[k]=i;\n\
             if(k>1) if(x[k]*x[k-1]!=1)\n\
                 if(k==n) afis();\n\
-                    else back01(k+1, n);\n\
+                    else backtracking_aplicatia1(k+1, n);\n\
                 else ;\n\
-            else back01(k+1, n);\n\
+            else backtracking_aplicatia1(k+1, n);\n\
         }\n\
     }" << endl;
     cout << endl << "   Executie: \n" << endl;
@@ -496,7 +496,7 @@ void meniu_divideetimpera(){
 
 void divideetimpera_definitie(){
     system("cls");
-    cout << "\n\n    Divide-et-impera- definitie" << endl;
+    cout << "\n\n    Divide-et-impera - definitie" << endl;
     cout << "\n\n\
     Divide-et-impera este o metoda de programare bazata pe un principiu simplu, ce urmareste acesti pasi:\n\
      - problema data se descompune in doua (sau mai multe) subprobleme (de acelasi tip ca problema initiala, dar de \n\
@@ -758,7 +758,7 @@ void test() {
     system("cls");
     cout << "\n\n    Test din tehnici de programare" << endl << endl;
     cout << "-----------------------------------------------------------------------------------------------------------------------";
-    cout << endl << "  Alege raspunsul corect la urmatoarele intrebari:\n\n";
+    cout << endl << endl << "  Alege raspunsul corect la urmatoarele intrebari:\n\n";
     cout << "-----------------------------------------------------------------------------------------------------------------------";
     punctaj += intrebare_cu_un_raspuns(intrebare_1, 3);
     cout << "-----------------------------------------------------------------------------------------------------------------------";
